@@ -1,3 +1,4 @@
 baseURL = "http://localhost:1313/"
 title = "Stat90 Blog"
 theme = "PaperMod"
+publishDir = "docs"
