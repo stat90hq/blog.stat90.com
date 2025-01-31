@@ -4,7 +4,7 @@ theme = "PaperMod"
 publishDir = "docs"
 
 [params]
-  label.text = "Stat90 blog"
+  label.text = "Stat90 Blog"
   
   defaultTheme = "dark"  # Set dark mode as default
   disableThemeToggle = false

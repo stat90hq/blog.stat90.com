@@ -11,15 +11,15 @@
 /* Style for Stat90 */
 .logo-text::before {
     content: "Stat90";
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: 700;
     color: #10b981;  /* Your specified color for dark mode */
 }
 
 /* Style for blog */
 .logo-text::after {
-    content: " blog";
-    font-size: 1.1rem;
+    content: " Blog";
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
