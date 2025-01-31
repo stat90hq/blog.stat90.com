@@ -18,7 +18,7 @@ Consider this scenario: Player A makes five passes into the final third, while P
 
 Let's dive straight into our main analysis. The visualization below plots every Premier League player's Expected Pass Threat (xPT) against their Expected Carry Threat (xCT), both measured per 90 minutes:
 
-[INSERT: Main scatter plot]
+![xPt vs xCT (all Premier League players until Jan 30, 2025)](xpt-xct-scatter-main.png)
 
 The plot divides players into four distinct profiles:
 
