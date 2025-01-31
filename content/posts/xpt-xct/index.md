@@ -10,6 +10,8 @@ We start with the fundamental question: "What do players do when they have the b
 
 This led us to develop two new metrics - Expected Pass Threat (xPT) and Expected Carry Threat (xCT) - that aim to capture the full spectrum of a player's on-ball actions. Instead of just measuring end products like assists, these metrics evaluate every meaningful offensive action a player makes with the ball.
 
+Expected Threat (xT) measures a player's total chance creation value per 90 minutes through different attacking actions. Each action (like through balls, crosses, dribbles) is weighted based on how often it historically leads to an assisted goal. A player with xT of 3.7 creates attacking actions worth approximately 3.7 assisted goals, though the actual xAG outcome will be lower since not all threatening actions result in chances.
+
 ## The Two Dimensions of Threat
 
 Let's dive straight into our main analysis. The visualization below plots every Premier League player's Expected Pass Threat (xPT) against their Expected Carry Threat (xCT), both measured per 90 minutes:
