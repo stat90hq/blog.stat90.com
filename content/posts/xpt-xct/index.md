@@ -94,5 +94,5 @@ This analysis represents an attempt to quantify how players create danger when t
 In future posts, we'll explore other aspects of the game, including a deep dive into the modern "6" role and how defensive midfielders influence play through their on-ball actions.
 
 If you'd like to follow our work and stay updated with more analysis like this, you can find us on:
-- Instagram: [@stat90hq](https://instagram.com/stat90hq)
+- Instagram: [@stat90com](https://instagram.com/stat90com)
 - Bluesky: [@stat90.bsky.social](https://bsky.app/profile/stat90.bsky.social)
