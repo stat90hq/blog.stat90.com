@@ -4,11 +4,10 @@ theme = "PaperMod"
 publishDir = "docs"
 
 [params]
-  # Add this label parameter
-  label.icon = "/logo.png"
-  label.iconHeight = 35  # Adjust this value to resize your logo
-  label.text= "Blog"
+  label.text = "Stat90 blog"
+  
+  defaultTheme = "dark"  # Set dark mode as default
+  disableThemeToggle = false
 
   [params.assets]
     favicon = "/favicon.ico"
-    logo = "/logo.png"

@@ -1,16 +1,10 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ .Site.Params.label.text | default .Site.Title }}">
-                {{- if .Site.Params.label.icon }}
-                <img src="{{ .Site.Params.label.icon }}" alt="{{ .Site.Title }}" height="{{ .Site.Params.label.iconHeight }}" width="{{ .Site.Params.label.iconHeight }}">
-                {{- end }}
-                {{- if .Site.Params.label.text }}
-                <span class="logo-text">{{ .Site.Params.label.text }}</span>
-                {{- end }}
+            <a href="{{ "" | absLangURL }}" accesskey="h">
+                <span class="logo-text"></span>
             </a>
         </div>
-        {{- $currentPage := . }}
         <div class="nav-right">
             {{- if not .Site.Params.disableThemeToggle }}
             <button id="theme-toggle" accesskey="t" title="(Alt + T)">

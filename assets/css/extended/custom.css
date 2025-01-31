@@ -1,9 +1,29 @@
-/* Import Space Grotesk from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap');
 
-/* Apply to the logo text */
+.logo a {
+    text-decoration: none;
+}
+
 .logo-text {
     font-family: 'Space Grotesk', sans-serif;
-    font-weight: 500;  /* Adjust weight as needed */
-    margin-left: 10px; /* Add some space between logo and text */
+}
+
+/* Style for Stat90 */
+.logo-text::before {
+    content: "Stat90";
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #10b981;  /* Your specified color for dark mode */
+}
+
+/* Style for blog */
+.logo-text::after {
+    content: " blog";
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* Adjust color for light mode */
+[theme="light"] .logo-text::before {
+    color: #059669;  /* Darker shade for light mode */
 }
