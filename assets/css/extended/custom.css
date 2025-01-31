@@ -1,29 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap');
 
-.logo a {
-    text-decoration: none;
-}
-
-.logo-text {
-    font-family: 'Space Grotesk', sans-serif;
-}
-
-/* Style for Stat90 */
+/* Logo styles (your existing styles with updated sizes) */
 .logo-text::before {
     content: "Stat90";
     font-size: 2rem;
     font-weight: 700;
-    color: #10b981;  /* Your specified color for dark mode */
+    color: #10b981;
 }
 
-/* Style for blog */
 .logo-text::after {
     content: " Blog";
     font-size: 1.5rem;
     font-weight: 500;
 }
 
-/* Adjust color for light mode */
 [theme="light"] .logo-text::before {
-    color: #059669;  /* Darker shade for light mode */
+    color: #059669;
+}
+
+/* Article styling */
+.post-title {
+    font-size: 1.8rem !important;  /* Smaller than the logo */
+    margin-bottom: 1rem;
+}
+
+.post-meta {  /* This is for the subtext (date, etc.) */
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.post-content {  /* Main article content */
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Add better spacing between sections */
+.post-content h1 {
+    font-size: 1.6rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.post-content h2 {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.post-content p {
+    margin-bottom: 1.5rem;
+}
+
+/* Style code blocks differently */
+.post-content pre {
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    background-color: #1e293b;  /* Darker background for code */
+}
+
+/* Style inline code */
+.post-content code {
+    font-size: 0.9em;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    background-color: rgba(134, 134, 134, 0.2);
+}
+
+/* Add spacing for lists */
+.post-content ul, .post-content ol {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+.post-content li {
+    margin-bottom: 0.5rem;
+}
+
+/* Style blockquotes */
+.post-content blockquote {
+    border-left: 4px solid #10b981;
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    color: #666;
 }
