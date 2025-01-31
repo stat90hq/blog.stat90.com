@@ -2,3 +2,12 @@ baseURL = "https://blog.stat90.com/"
 title = "Stat90 Blog"
 theme = "PaperMod"
 publishDir = "docs"
+
+[params]
+  # Add this label parameter
+  label.icon = "/logo.png"
+  label.iconHeight = 35  # Adjust this value to resize your logo
+
+  [params.assets]
+    favicon = "/favicon.ico"
+    logo = "/logo.png"
